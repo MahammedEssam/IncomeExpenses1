@@ -15,6 +15,8 @@ namespace IncomeExpenses
         public Login()
         {
             InitializeComponent();
+            UNameTb.Text = "Admin123";
+            PasswordTb.Text = "Admin";
         }
 
         private void LoginBtn_Click(object sender, EventArgs e)
